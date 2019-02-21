@@ -1,2 +1,2 @@
 # Here's a link of how it looks:
-https://codepen.io/KateEfimova/pen/RvqBQa
+https://codepen.io/KateEfimova/full/RvqBQa
