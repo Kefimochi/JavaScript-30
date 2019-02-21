@@ -2,7 +2,7 @@ html {
   font-size: 10px;
   background-image: url("https://raw.githubusercontent.com/calebmer/calebmer.github.io/f49671d679b3a20e628e9ec017bbf0f6d91dda41/assets/images/cool-tree-background.png");
   background-attachment: fixed;
-  background-repeat: repeat;
+
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -85,6 +85,10 @@ kbd {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  html {
+    background-image: url("https://github.com/Kefimochi/Javascript30/blob/master/cool-tree-background3.png?raw=true");
+    height: 100%;
+  }
   .header {
     display: flex;
     justify-content: center;
