@@ -1,0 +1,54 @@
+:root {
+  --base: #ffc600;
+  --spacing: 6px;
+  --blur: 4px;
+}
+body {
+  text-align: center;
+  background: linear-gradient(rgba(255, 175, 235,0.5), rgba(51,0,102,1)), #193549;
+  color: #edd9ce;
+  font-weight: 100;
+  font-size: 3.3rem; 
+  items-align: center;
+  text-shadow: 0.09em 3px #00002B;
+}
+img {
+  max-width: 58%;
+  height: auto;
+  margin-bottom: 0.3em;
+  border-radius: 1em;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+.triangle-down {
+  position: absolute;
+  filter: drop-shadow(0 0 30px rgba(0,0,0,0.9));
+  border-left: 11em solid transparent;
+  border-right: 10em solid transparent;
+  border-top: 10em solid #330066;
+  /*Makes the triangle behind other elements*/
+  z-index: -1;
+  font-size: 4rem;
+  margin: -1.1em auto; 
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%)
+}
+.hl {
+  color: var(--base);
+}
+.controls {
+   margin-bottom: 50px;
+}
+input {
+   width: 100px;
+}
+.font1 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 0.6em;
+}
+
+.font2 {
+  font-family: 'Dancing Script', cursive;
+}
