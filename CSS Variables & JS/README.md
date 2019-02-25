@@ -1,2 +1,2 @@
 # Here's how it looks:
-https://codepen.io/KateEfimova/full/GzVZpg
+https://codepen.io/KateEfimova/full/jJNyze
