@@ -1,18 +1,14 @@
-html {
-    color: #0E2470;
-    font-family: sans-serif;
-  }
-  body {
-    margin: 0;
-  }
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-  }
-  h1 {
-    text-shadow: 10px 10px 0 rgba(0,0,0,1);
-    font-size: 100px;
-  }
+body {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}
+
+h1{
+	text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6em;
+  color: white;
+  margin: 2em 0 0 0;
+  text-shadow: 0 0 6px #fff;
+}
