@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,800");
+
+body {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+}
+
+h1{
+	text-transform: uppercase;
+  transform: rotate(-10deg);
+  font-family: 'Lato';
+  font-size: 6em;
+  color: white;
+  margin: 1.5em 0 0 0;
+  // text-shadow: 0 10px 20px rgba(255,255,255,.85);
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+}
