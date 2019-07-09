@@ -14,13 +14,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Amatic SC", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
   text-align: center;
   font-size: 10rem;
   line-height: 1;
-  margin-bottom: 0;
+  margin-bottom: 0.4em;
 }
 
 .score {
@@ -68,4 +72,12 @@ h1 {
 
 .hole.up .mole {
   top: 0;
+}
+
+button {
+  height: 3em;
+  background-color: black;
+  color: yellow;
+  width: 15em;
+  border: none;
 }
